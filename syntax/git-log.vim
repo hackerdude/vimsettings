@@ -1,0 +1,1 @@
+/Users/david/etc/git-vim/syntax/git-log.vim
