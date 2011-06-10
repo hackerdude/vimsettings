@@ -55,10 +55,22 @@ map <F3> <Esc>:exec Html_entities_replace()
 autocmd FileType xml source $HOME/.vim/xml_macros.vim
 autocmd FileType xslt source $HOME/.vim/xml_macros.vim
 autocmd FileType ruby source $HOME/.vim/ruby_macros.vim
+autocmd FileType eruby source $HOME/.vim/eruby_macros.vim
 autocmd FileType xhtml source $HOME/.vim/xhtml_macros.vim
 autocmd FileType html source $HOME/.vim/xhtml_macros.vim
+autocmd FileType c    source $HOME/.vim/c_macros.vim
+autocmd FileType cpp    source $HOME/.vim/cpp_macros.vim
 
-set gfn=Inconsolata:h14.00
+"set gfn=Inconsolata:h14.00
+"set gfn=Espresso_Mono:h14.00
+"set gfn=Anonymous_Pro:h14.00
+"set gfn=DejaVu_Sans_Mono:h14.00
+"set gfn=Bitstream_Vera_Sans_Mono:h14.00
+set gfn=Liberation_Mono:h14.00
+"set gfn=Consolas:h14.00
+"set gfn=Monofur:14.00
+"set gfn=Envy_Code_R:14.00
+
 
 " vim -b : edit binary using xxd-format!
 augroup Binary
@@ -94,6 +106,7 @@ endif
 set statusline=%f\ %m%r%h%w\ %y%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 
+"set statusline=[%n]\ %<%.99f\ %h%w%m%r%y%{exists('g:loaded_rvm')?rvm#statusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " os x clipboard
 vnoremap <silent> <Leader>y !pbcopy<CR>u
