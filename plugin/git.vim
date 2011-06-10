@@ -1,1 +1,0 @@
-/Users/david/etc/git-vim/plugin/git.vim
