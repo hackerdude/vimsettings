@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/david/wurl/wurlinc/rhodes/lib/extensions/nfc/ext/nfc/platform/android/additional_files/res'
+let g:netrw_dirhist_2='/Users/david/play/android-platform/packages/apps/Browser'
+let g:netrw_dirhist_3='/Users/david/play/android-platform/packages/apps/Browser/res'
+let g:netrw_dirhist_4='/Users/david/play/android-platform/.repo'
+let g:netrw_dirhist_5='/Users/david/play/android-platform/frameworks/base/core/res/res/drawable'
+let g:netrw_dirhist_6='/Users/david/play/android-platform/packages/apps/Browser/res/layout'
+let g:netrw_dirhist_7='/Users/david/play/android-platform/frameworks/base/core/res/res/layout'
+let g:netrw_dirhist_8='/Users/david/.ssh'

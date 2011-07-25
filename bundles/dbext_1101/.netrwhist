@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/david/channels-reader'
 let g:netrw_dirhist_2='/Users/david/wurl-client/wurl'
+let g:netrw_dirhist_3='/Users/david/.rvm/gems/ruby-1.8.7-p302@rhodes'
+let g:netrw_dirhist_4='/Users/david/channels-chef-repo/cookbooks/mediainfo/recipes'
+let g:netrw_dirhist_5='/Users/david/channels-chef-repo/cookbooks/mediainfo/files/default'
+let g:netrw_dirhist_6='/Users/david/wurlinc/rice'
+let g:netrw_dirhist_7='/Users/david/wurl/wurl/extensions/mini-oauth'
+let g:netrw_dirhist_8='/Users/david/.rvm/gems/ruby-1.8.7-p334@rhodes/bundler/gems/rhodes-fa8ce58e224c'
